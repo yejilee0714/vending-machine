@@ -59,12 +59,36 @@ li {
     font-weight: initial;
 }
 
-.drink-list div p:nth-child(3) {
+.drink-list div p:nth-of-type(2) {
     background-color: #6327FE;
     border-radius: 50px;
     margin: 7px 11px 9px 13px;
     font-size: 12px;
     color: #fff;
+}
+
+.drink-list div:first-of-type,
+.drink-list div:nth-of-type(5){
+    border: 3px solid #6327FE;
+    box-shadow:initial;
+}
+
+.drink-list .soldout{
+    position: relative;
+}
+
+.drink-list .soldout::before{
+    content: '';
+    position: absolute;
+    display: block;
+    background: url(../img/soldout.png) no-repeat;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-position: center;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    border-radius: 10px;
 }
 
 /* 자판기 버튼 */
