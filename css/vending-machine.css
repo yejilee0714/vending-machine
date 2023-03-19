@@ -274,7 +274,6 @@ li {
 
 /* scroll */
 .drink-count ul::-webkit-scrollbar{
-    -webkit-appearance: none;
     width: 10px;
     height: 79px;
 }
