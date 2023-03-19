@@ -10,3 +10,9 @@ p{
     font-weight: bold;
     font-size: 14px;
 }
+
+button{
+    border: none;
+    background: #fff;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+}
