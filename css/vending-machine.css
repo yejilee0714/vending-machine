@@ -37,6 +37,8 @@ li {
 .drink-list{
     display: grid;
     grid-template-areas: "a b c" "d e f";
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     gap: 12px;
     margin: 31px 27px 20px;
     border-radius: 10px;
@@ -101,7 +103,7 @@ li {
     grid-template-columns: 2.12fr 1fr;
     grid-template-rows: 1fr 1fr 3.3fr;
     gap: 12px;
-    margin: 0px 27px 28px 27px;
+    margin: 0px 27px 25px 27px;
     font-size: 13px;
 }
 
@@ -152,7 +154,7 @@ li {
 }
 
 .get-drink button:active{
-    border: 1px solid #000;
+    border: 1px solid #fd5f5f;
 }
 
 .get-drink .drink-count ul{
