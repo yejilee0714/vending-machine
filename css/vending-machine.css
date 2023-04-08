@@ -47,7 +47,7 @@ li {
 .drink-list button{
     border-radius: 10px;
     width: 94px;
-    padding: 11px 11px 9px;
+    padding: 11px 11px 9px;    
 }
 
 .drink-list img {
@@ -72,10 +72,7 @@ li {
 }
 
 .drink-list button:active:not(:disabled){
-    border: 3px solid #6327FE;
-    box-shadow: initial;
-    width: inherit;
-    box-shadow: initial;
+    box-shadow: inset 0px 0px 0px 2px #6327FE;
 }
 
 .drink-list .soldout{
@@ -119,7 +116,6 @@ li {
 }
 
 .get-drink button{
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
     font-weight: 500;
     border-radius: 5px;
 }
@@ -154,7 +150,7 @@ li {
 }
 
 .get-drink button:active{
-    border: 1px solid #fd5f5f;
+    box-shadow: inset 0px 0px 0px 2px #fe8827;
 }
 
 .get-drink .drink-count ul{
